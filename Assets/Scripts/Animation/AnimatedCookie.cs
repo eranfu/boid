@@ -4,7 +4,7 @@ namespace Animation
 {
     public class AnimatedCookie : MonoBehaviour
     {
-        [SerializeField] private Texture[] cookies;
+        [SerializeField] private Texture[] cookies = null;
         [SerializeField] private float framesPerSecond = 15;
         private Light _light;
         private int _index = 0;
