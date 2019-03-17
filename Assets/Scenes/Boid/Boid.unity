@@ -385,8 +385,8 @@ GameObject:
   - component: {fileID: 88280854}
   - component: {fileID: 88280853}
   - component: {fileID: 88280852}
-  - component: {fileID: 88280851}
   - component: {fileID: 88280850}
+  - component: {fileID: 88280851}
   m_Layer: 0
   m_Name: BoidFishSpawner (1)
   m_TagString: Untagged
@@ -409,7 +409,7 @@ MonoBehaviour:
   m_SerializedData:
     prefab: {fileID: 682548566782545786, guid: b20a3a6caafb62f47900ab06676ed192, type: 3}
     radius: 75
-    count: 2500
+    count: 25000
 --- !u!114 &88280851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5666,8 +5666,8 @@ GameObject:
   - component: {fileID: 1927643240}
   - component: {fileID: 1927643239}
   - component: {fileID: 1927643238}
-  - component: {fileID: 1927643237}
   - component: {fileID: 1927643241}
+  - component: {fileID: 1927643237}
   m_Layer: 0
   m_Name: BoidFishSpawner
   m_TagString: Untagged
@@ -5762,7 +5762,7 @@ MonoBehaviour:
   m_SerializedData:
     prefab: {fileID: 682548566782545786, guid: 009834b439a0e455b843299085c2fbff, type: 3}
     radius: 75
-    count: 2500
+    count: 25000
 --- !u!1001 &1991058882
 PrefabInstance:
   m_ObjectHideFlags: 0
