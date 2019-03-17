@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 682548566782545784}
   - component: {fileID: 682548566782545785}
   - component: {fileID: 682548566782545790}
+  - component: {fileID: 1093195873608736862}
   m_Layer: 0
-  m_Name: TestBoidFish
+  m_Name: TestBoidFish 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,22 +80,41 @@ MonoBehaviour:
   m_SerializedData:
     Value:
       c0:
-        x: 0
+        x: 1
         y: 0
         z: 0
         w: 0
       c1:
         x: 0
-        y: 0
+        y: 1
         z: 0
         w: 0
       c2:
         x: 0
         y: 0
-        z: 0
+        z: 1
         w: 0
       c3:
         x: 0
         y: 0
         z: 0
-        w: 0
+        w: 1
+--- !u!114 &1093195873608736862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682548566782545786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85a85014fa0b4148976d3e3215c79fb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedData:
+    cellRadius: 8
+    separationWeight: 1
+    alignmentWeight: 1
+    targetWeight: 2
+    obstacleAversionDistance: 30
+    moveSpeed: 20

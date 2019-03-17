@@ -20,7 +20,6 @@ public class SpawnRandomInSphereSystem : ComponentSystem
 
     protected override void OnCreateManager()
     {
-        base.OnCreateManager();
         _mainGroup = GetComponentGroup(ComponentType.ReadOnly<SpawnRandomInSphere>(),
             ComponentType.ReadOnly<LocalToWorld>());
     }
